@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Hello",
+      "content": "This is the first blog post.",
+      "author": "saleh",
+      "image": "https://media.gettyimages.com/id/1049277550/photo/retro-blog-bulb-sign-with-leather-armchair.jpg?s=612x612&w=0&k=20&c=EzRprmTVPOk5bONifiiBrq1S6j7VgqWY1sc8tKVbm4A="
+    },
+    {
+      "id": 2,
+      "title": "hello again",
+      "content": " this is the seconde blog",
+      "author": "saleh",
+      "image": "https://media.gettyimages.com/id/1306909054/vector/blog-speech-bubble-banner-paper-label-template-vector-stock-illustration.jpg?s=612x612&w=0&k=20&c=yqe-GqBbnFtRGxU6nD3Ox2PYHEC9JfUc8BJaH-njRPU="
+    }
+  ]
+}

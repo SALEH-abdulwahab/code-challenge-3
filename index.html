@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Post Pulse</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Sidebar -->
+    <aside id="sidebar">
+      <h2>Blog Posts</h2>
+      <div id="post-list"></div>
+
+      <h3>Add New Post</h3>
+      <form id="new-post-form">
+        <input type="text" name="title" placeholder="title" required />
+        <input type="text" name="author" placeholder="author" required />
+        <input type="text" name="image" placeholder="image url" />
+        <textarea name="content" placeholder="write your post" required></textarea>
+        <button type="submit">+ Add Post</button>
+        <button type="button" id="cancel-add">Cancel</button>
+      </form>
+    </aside>
+
+    <!-- Post Detail -->
+    <main id="post-detail">
+      <h2>Select a post</h2>
+    </main>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

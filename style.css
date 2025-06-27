@@ -1,0 +1,71 @@
+/* This container holds the sidebar and main area side by side */
+#app {
+  display: flex;
+}
+
+/* Sidebar style (left side with post list and form) */
+aside#sidebar {
+  width: 30%;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-right: 1px solid #ccc;
+}
+
+/* Main content area (post details) */
+main#post-detail {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Images inside posts should be responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+/* Hidden elements (like edit form initially) */
+.hidden {
+  display: none;
+}
+
+/* Style for each post title item in the list */
+.post-title {
+  cursor: pointer;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Hover effect on post title */
+.post-title:hover {
+  background-color: #eee;
+}
+
+/* General input and textarea styles */
+input,
+textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button style */
+button {
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4f46e5;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #4338ca;
+}
